@@ -1,0 +1,58 @@
+body
+{
+    width: 600px;
+    margin: 10px auto;
+}
+
+input
+{
+    height: 25px;
+    font-family: Arial;
+    font-size: 18px;
+}
+
+p, span
+{
+    font-family: Arial;
+    font-size: 18px;
+}
+
+button
+{
+    height: 25px;
+    background-color: black;
+    color: white;
+    font-family: Arial;
+    border: 3px solid cornflowerblue;
+    border-radius: 5px;
+}
+
+.quote
+{
+    position: relative;
+    background-color: aliceblue;
+    margin: 2px 0px;
+    padding: 40px;
+    border-radius: 20px;
+    border-bottom: 5px solid gray;
+}
+
+.delete
+{
+    background-color: lightgray;
+    width: 30px;
+    height: 30px;
+    border: 1px solid white;
+    color: black;
+    border-radius: 100%;
+    font-weight: bold;
+}
+
+.author
+{
+    right: 10px;
+    bottom: 10px;
+    position: absolute;
+    color: slategray;
+
+}
